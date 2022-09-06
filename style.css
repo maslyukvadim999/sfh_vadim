@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #eaabab;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #d0ba36;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #1800cb;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: lightgoldenrodyellow;
+    flex-basis: auto;
+}
